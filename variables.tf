@@ -1,13 +1,13 @@
 variable "pet_filename" {
   description = "File path where the pet file will be created"
   type        = string
-  default     = "/tmp/pets.txt"
+  default     = "/tmp/brownie.txt"
 }
 
 variable "pet_content" {
   description = "Content to be written into the pet file"
   type        = string
-  default     = "my horse is black in colour!"
+  default     = "my dog breed is golden reterver!"
 }
 
 variable "random_pet_prefix" {
